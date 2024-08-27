@@ -1,7 +1,7 @@
 import fetch from 'node-fetch'
 
 export async function before(m, { conn }) {
-let img = await (await fetch(`https://tinyurl.com/24tl693s`)).buffer()
+let img = await (await fetch(`https://tinyurl.com/28g38jom`)).buffer()
 
  global.rcanal = {
     contextInfo: {
