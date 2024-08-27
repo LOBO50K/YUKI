@@ -14,19 +14,19 @@ let handler = async function (m, { conn, text, usedPrefix, command }) {
   if (!age) return m.reply('🚩 La edad no puede estar vacía.')
   if (name.length >= 100) return m.reply('🚩 El nombre es demasiado largo.' )
   age = parseInt(age)
-  if (age > 100) return m.reply('👴🏻 Wow el abuelo quiere jugar al bot.')
+  if (age > 999) return m.reply('👴🏻 Wow el abuelo quiere jugar al bot.')
   if (age < 5) return m.reply('🚼  hay un abuelo bebé jsjsj. ')
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
-  let img = await (await fetch(`https://tinyurl.com/2aakwt3s`)).buffer()
+  let img = await (await fetch(`https://tinyurl.com/274avqbb`)).buffer()
   let txt = ` –  *R E G I S T R O  -  U S E R*\n\n`
-      txt += `┌  ✩  *Nombre* : ${name}\n`
-      txt += `│  ✩  *Edad* : ${age} años\n`
-      txt += `│  ✩  *Numero de serie*\n`
-      txt += `└  ✩  ${sn}`
+      txt += ` ➸ 🃚  *𝙽𝙾𝙼𝙱𝚁𝙴* : ${name}\n`
+      txt += `|  🃚  *𝙴𝙳𝙰𝙳* : ${age} años\n`
+      txt += `|  🃚  *𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝚂𝙴𝚁𝙸𝙴*\n`
+      txt += ` ➸ 🃚  ${sn}`
 await conn.sendAi(m.chat, botname, textbot, txt, img, img, canal, m)
 await m.react('✅')
 }
