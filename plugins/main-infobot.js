@@ -59,29 +59,29 @@ let handler = async (m, { conn, usedPrefix }) => {
    }
    let timestamp = speed()
    let latensi = speed() - timestamp
-   let teks = ` –  *I N F O  -  B O T*
+   let teks = ` –  *𝙸 𝙽 𝙵 𝙾  -  𝙱 𝙾 𝚃*
 
-┌  ✩  *Creador* : @${owner[0][0].split('@s.whatsapp.net')[0]}
-│  ✩  *Prefijo* : [  ${usedPrefix}  ]
-│  ✩  *Total Plugins* : ${totalf}
-│  ✩  *Plataforma* : ${platform()}
-│  ✩  *Servidor* : ${hostname()}
-│  ✩  *RAM* : ${format(totalmem() - freemem())} / ${format(totalmem())}
-│  ✩  *FreeRAM* : ${format(freemem())}
-│  ✩  *Speed* : ${latensi.toFixed(4)} ms
-│  ✩  *Uptime* : ${uptime}
-│  ✩  *Modo* : ${bot.public ? 'Privado' : 'Publico'}
-│  ✩  *Comandos Ejecutados* : ${toNum(totalStats)} ( *${totalStats}* )
-│  ✩  *Grupos Registrados* : ${toNum(totalchats)} ( *${totalchats}* )
-└  ✩  *Registrados* : ${toNum(totalreg)} ( *${totalreg}* ) Usuarios
+ ᐳ  🂲  *𝚌𝚛𝚎𝚊𝚍𝚘𝚛* : @${owner[0][0].split('@s.whatsapp.net')[0]}
+║  🂲  *𝚙𝚛𝚎𝚏𝚒𝚓𝚘* : [  ${usedPrefix}  ]
+║  🂲  *𝚝𝚘𝚝𝚊𝚕 𝚙𝚕𝚞𝚐𝚒𝚗𝚜* : ${totalf}
+║  🂲  *𝚙𝚕𝚊𝚝𝚊𝚏𝚘𝚛𝚖𝚊* : ${platform()}
+║  🂲  *𝚜𝚎𝚛𝚟𝚒𝚍𝚘𝚛* : ${hostname()}
+║  🂲  *𝚛𝚊𝚖* : ${format(totalmem() - freemem())} / ${format(totalmem())}
+║  🂲  *𝚏𝚛𝚎𝚎𝚁𝚊𝚖* : ${format(freemem())}
+║  🂲  *𝚜𝚙𝚎𝚎𝚍* : ${latensi.toFixed(4)} ms
+║  🂲  *𝚞𝚙𝚝𝚒𝚖𝚎* : ${uptime}
+║  🂲  *𝚖𝚘𝚍𝚘* : ${bot.public ? 'Privado' : 'Publico'}
+║  🂲  *𝚌𝚘𝚖𝚊𝚗𝚍𝚘𝚜 𝚎𝚓𝚎𝚌𝚞𝚝𝚊𝚍𝚘𝚜* : ${toNum(totalStats)} ( *${totalStats}* )
+║  🂲  *𝚐𝚛𝚞𝚙𝚘𝚜 𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚊𝚍𝚘𝚜* : ${toNum(totalchats)} ( *${totalchats}* )
+ ᐳ   *𝚛𝚎𝚐𝚒𝚜𝚝𝚛𝚊𝚍𝚘𝚜* : ${toNum(totalreg)} ( *${totalreg}* ) Usuarios
 
- –  *I N F O  -  C H A T*
+ –  *𝙸 𝙽 𝙵 𝙾  -  𝙲 𝙷 𝙰 𝚃*
 
-┌  ✩  *${groupsIn.length}* Chats en Grupos
-│  ✩  *${groupsIn.length}* Grupos Unidos
-│  ✩  *${groupsIn.length - groupsIn.length}* Grupos Salidos
-│  ✩  *${chats.length - groupsIn.length}* Chats Privados
-└  ✩  *${chats.length}* Chats Totales
+ ᐳ ✎  *${groupsIn.length}* Chats en Grupos
+║  ✎  *${groupsIn.length}* Grupos Unidos
+║  ✎  *${groupsIn.length - groupsIn.length}* Grupos Salidos
+║  ✎  *${chats.length - groupsIn.length}* Chats Privados
+ ᐳ  ✎  *${chats.length}* Chats Totales
 
 *≡  _NodeJS Uso de memoria_*
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}`
