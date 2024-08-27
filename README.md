@@ -1,7 +1,7 @@
-<h1 align="center">‧ 【 ᴛᴇᴀᴍ ᴋᴏʀᴜᴅᴀ ᴏꜰᴄ 】 ‧
+<h1 align="center">‧ 🂶 𝒀𝒖𝒌𝒊 𝑺𝒖𝒐𝒖 𝑩𝒐𝒕 𝑴𝑫 🂡 ‧
 </p>
 <p>
-        <img src= "https://telegra.ph/file/aff4f06b811e3f98f1b56.jpg">
+        <img src= "https://telegra.ph/file/0dad14ee2513f75d6e56b.jpg">
     </p>
     <p align="center">
         <a href="#"><img title="simple-whatsapp-bot" src="https://img.shields.io/badge/-SIMPLE--WHATSAPP--BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
