@@ -13,9 +13,9 @@ const message = Array.from(uniqueUsers.values()).map((user, index) => `┌  ✩ 
   
 const replyMessage = message.length === 0 ? "" : message
 const totalUsers = uniqueUsers.size;
-const responseMessage = `${` –  *S E R B O T  -  S U B B O T S*\n\n${replyMessage.trim()}`.trim()}`
+const responseMessage = `${` –  *𝚂 𝚄 𝙱 𝙱 𝙾 𝚃 𝚂 - 𝙰 𝙲 𝚃 𝙸 𝚅 𝙾 𝚂*\n\n${replyMessage.trim()}`.trim()}`
   
-let img = await (await fetch(`https://i.ibb.co/80ghZjY/file.jpg`)).buffer()
+let img = await (await fetch(`https://telegra.ph/file/9b1464be4d842309c3454.jpg`)).buffer()
 
 await _envio.sendFile(m.chat, img, 'thumbnail.jpg', responseMessage, m, false, { mentions: _envio.parseMention(responseMessage) })
 }
