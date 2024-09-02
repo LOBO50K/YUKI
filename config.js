@@ -36,7 +36,7 @@ global.wait = '🐢 *Aɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ, sᴏʏ ʟᴇ�
 global.botname = '🃍 𝚈𝚄𝙺𝙸 𝙱𝙾𝚃 𝙼𝙳 🂪'
 global.textbot = `𝚈𝚄𝙺𝙸 𝙱𝙾𝚃`
 global.listo = '*Aqui tiene*'
-global.namechannel = '🃟 𝙽𝙰𝙺𝙰𝙽𝙾 𝙱𝙾𝚃 𝙼𝙳 🃟'
+global.namechannel = '🃟 𝚃𝙾𝙲𝙰𝙼𝙴 🃟'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
